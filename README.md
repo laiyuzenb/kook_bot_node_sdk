@@ -26,7 +26,7 @@
 
 客户端可以与 KOOK 进行实时通信
 
-### webhook 模式 使用
+### webhook 模式 使用 （目前默认加密 请务必传入 Verify Token 和 Encrypt Key）
 
 连接步骤
 
