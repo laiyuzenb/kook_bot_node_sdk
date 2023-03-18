@@ -1,13 +1,18 @@
 {
   "name": "@kookapp/bot_sdk",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "dev": "tsup --watch",
     "debug:ws": "node ./__test__/ws.js",
     "debug:webhook": "node ./__test__/webhook.js"
   },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
